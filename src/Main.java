@@ -31,9 +31,10 @@ public class Main {
 
         int brownPaint = 4;
         int whitePaint = 2;
-        int count = 9;
-        int brownPaintForAllRoom = brownPaint*count;
-        int whitePaintForAllRoom = whitePaint*count;
+        int count = 120;
+        int brownPaintForAllRoom = (count/(brownPaint+whitePaint))*brownPaint;
+        int whitePaintForAllRoom =(count/(brownPaint+whitePaint))*whitePaint;
+        int AllRoom=count/(brownPaint+whitePaint);
 
 //        Бананы — 5 штук (1 банан — 80 грамм).
 //        Молоко — 200 мл (100 мл = 105 грамм).
@@ -107,7 +108,7 @@ public class Main {
         System.out.println("За " +"3 дня" + " машина произвела " +bottlesIn3day + " штук бутылок");
         System.out.println("За " +"месяц" + " машина произвела " +bottlesInMonth + " штук бутылок");
         System.out.println();
-        System.out.println("В школе, где "+count +" классов, нужно "+whitePaintForAllRoom+" банок белой краски и "+brownPaintForAllRoom+" банок коричневой краски");
+        System.out.println("В школе, где "+AllRoom +" классов, нужно "+whitePaintForAllRoom+" банок белой краски и "+brownPaintForAllRoom+" банок коричневой краски");
         System.out.println();
         System.out.println(weigthInGram);
         System.out.println(weigthInKg);
