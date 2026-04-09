@@ -17,11 +17,11 @@ public class Main {
         int s2 = 27897;
         byte y = 67;
 
-        int c1 = 23;
-        int c2 = 27;
-        int c3 = 30;
+        int class1 = 23;
+        int class2 = 27;
+        int class3 = 30;
         int AllPaper = 480;
-        int paperForStudent = AllPaper/(c1+c2+c3);
+        int paperForStudent = AllPaper/(class1+class2+class3);
 
         int bottlesIn2minutes = 16;
         int b1 = bottlesIn2minutes*10;
@@ -100,6 +100,7 @@ public class Main {
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(y);
+         System.out.println();
         System.out.println("На каждого ученика рассчитано " + paperForStudent + " листов бумаги");
         System.out.println();
 
