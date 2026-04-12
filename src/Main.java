@@ -120,7 +120,6 @@ public class Main {
         System.out.println(quantity2);
         System.out.println(averageQuantity);
         System.out.println();
-
         System.out.println("Маша теперь получает " + newSalaryForMasha + " рублей. Годовой доход вырос на " + nextYear1 + " рублей");
         System.out.println("Денис теперь получает " + newSalaryForDenis + " рублей. Годовой доход вырос на " + nextYear2 + " рублей");
         System.out.println("Кристина теперь получает " + newSalaryForKristina + " рублей. Годовой доход вырос на " + nextYear3 + " рублей");
