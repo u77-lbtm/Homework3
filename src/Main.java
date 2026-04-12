@@ -116,7 +116,6 @@ public class Main {
         System.out.println(weigthInGram);
         System.out.println(weigthInKg);
         System.out.println();
-
         System.out.println(quantity1);
         System.out.println(quantity2);
         System.out.println(averageQuantity);
