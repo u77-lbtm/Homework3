@@ -14,14 +14,14 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
+src/
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-
+work4.iml
 ### VS Code ###
 .vscode/
 
